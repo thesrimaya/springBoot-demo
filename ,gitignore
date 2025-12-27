@@ -1,0 +1,13 @@
+# Maven
+target/
+.m2/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.metadata/
+.eclipse/
+
+# Logs
+*.log

@@ -19,7 +19,7 @@ public class BankController {
 	}
 	@GetMapping("/deposit")
 	public String deposit() {
-		return "withdrawn done of 55000/-";
+		return "withdrawn done of 700000/-";
 	}
 	
 

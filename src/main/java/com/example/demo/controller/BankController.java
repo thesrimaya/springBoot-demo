@@ -13,5 +13,9 @@ public class BankController {
 	public String welcome() {
 	    return "welcome To Axis Bank";
 	}
+	@GetMapping("/help")
+	public String help() {
+		return "please contact 9808089";
+	}
 
 }

@@ -16,7 +16,11 @@ public class BankController {
 	@GetMapping("/help")
 	public String help() {
 		return "please contact 9808089";
-	
 	}
+	@GetMapping("/deposit")
+	public String deposit() {
+		return "withdrawn done of 55000/-";
+	}
+	
 
 }
